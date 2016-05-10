@@ -1,8 +1,8 @@
 import os
 import os.path
 import re
-root = "/home/meip-users/Downloads/ntc6pat/jp/topics/"
+root = "/home/ec2-user/data/topics"
 for name in os.listdir(root):
 	filename = root + '/' + name
 	if (filename[len(filename)-3] == 't'):
-		os.system("chasen -o %s %s" % (filename+".chasen",filename) )
+		os.system("chasen -iw -o %s %s" % (filename+".chasen",filename) )

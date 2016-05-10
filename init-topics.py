@@ -1,7 +1,7 @@
 import os
 import os.path
 import re
-for root, dirs, files in os.walk("/home/meip-users/Downloads/ntc6pat/jp/topics/"):
+for root, dirs, files in os.walk("/home/ec2-user/data/topics"):
 	for name in files:
 		filename = root + '/' + name
 		if (filename[len(filename)-3] == 't'):
