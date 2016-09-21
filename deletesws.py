@@ -18,10 +18,12 @@ ftype = int(sys.argv[2])
 for root, dirs, files in os.walk(sys.argv[1]):
     for name in files:
         filename = root + '/' + name
-        if filename[len(filename)-2] == 'x':
+        if filename[len(filename)-1] == 'n':
             fin = open(filename,"r")
-            fout = open(filename+".dsw","w")
-            for line in fin:
+            lines = fin.readlines()
+            fin.close()
+            fout = open(filename,"w")
+            for line in lines:
                 if ftype > 1:
                     term = line.strip('\n')
                     if term not in sw:
@@ -32,5 +34,4 @@ for root, dirs, files in os.walk(sys.argv[1]):
                         fout.write(line)
                     elif (sp[ftype] not in sw):
                         fout.write(line)
-            fin.close()
             fout.close()
