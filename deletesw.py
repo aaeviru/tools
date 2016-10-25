@@ -3,7 +3,7 @@
 import sys
 
 if(len(sys.argv) != 4):
-    print "input:sourefile,outputfile,type[0/1]"
+    print "input:sourefile,outputfile,type[0/1/2]"
     sys.exit(0) 
 
 sw = set()
@@ -18,7 +18,7 @@ ftype = int(sys.argv[3])
 
 
 for line in fin:
-    if ftype == 1:
+    if ftype > 1:
         term = line.strip('\n')
         if term not in sw:
             fout.write(line)
