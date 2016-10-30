@@ -7,6 +7,7 @@ import os
 import sys
 import math
 import re
+from numpy.linalg import norm
 from os import path
 import numpy as np
 from scipy import spatial
@@ -29,6 +30,12 @@ upwords = set()
 l1 = []
 l2 = []
 
+for i in range(0,l):
+    if norm(a[i]) == 0:
+        upwords.add(i)
+print 'norm==0:',upwords
+sys.stdout.flush() 
+
 while len(upwords) < l - 2:
     for i in range(0,l):
         if i in upwords:
@@ -36,6 +43,7 @@ while len(upwords) < l - 2:
         for j in range(i+1,l):
             if j in upwords:
                 continue
+
             dist = spatial.distance.cosine(a[i],a[j])
             tempp[dist] = (i,j)
             if len(tempp) > limit:
