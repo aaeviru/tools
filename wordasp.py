@@ -23,7 +23,6 @@ a = np.load(sys.argv[1])
 a = np.transpose(a)
 fout = open(sys.argv[2],'w')
 l = len(a)
-l = 100
 limit = l/2
 tempp = SortedDict()
 upwords = set()
