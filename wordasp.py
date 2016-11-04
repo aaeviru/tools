@@ -7,6 +7,7 @@ import os
 import sys
 import math
 import re
+import time
 from numpy.linalg import norm
 from os import path
 import numpy as np
@@ -35,6 +36,8 @@ for i in range(0,l):
         upwords.add(i)
 print 'norm==0:',upwords
 sys.stdout.flush() 
+
+start = time.clock()
 
 while len(upwords) < l - 2:
     for i in range(0,l):
@@ -83,5 +86,10 @@ while len(upwords) < l - 2:
             upwords.add(tmp[1][1])
     print 'l2len:',len(l2)
     sys.stdout.flush() 
+end = time.clock()
+
 for i in l2:
     fout.write(' '.join(map(str,i[0]+i[1]))+'\n')
+
+print "running time:",end-start
+
