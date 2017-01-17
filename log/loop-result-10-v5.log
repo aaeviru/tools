@@ -1,0 +1,6 @@
+2016-12-24 00:20:39.855257
+
+command:python ../userquery/classifybyuser.py ~/data/topics/ ../tfidf/result-new/b3-3.txt ~/data/ldaclass-32-2000-top10000/ 0.2 3 0 ../userquery/result/
+loops:10
+output-floder:log/
+

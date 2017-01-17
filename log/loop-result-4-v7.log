@@ -1,0 +1,6 @@
+2016-12-22 12:04:40.234179
+
+command:python ../userquery/classifybyuser.py ~/data/topics/ rand ~/data/ldaclass-32-1000-top10000 0.4 3 1 ../userquery/result/
+loops:4
+output-floder:log/
+

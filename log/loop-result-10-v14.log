@@ -1,0 +1,6 @@
+2017-01-11 09:39:12.695027
+
+command:python ../userquery/classifybyuser.py ~/data/topics/ ../tfidf/result-new/b1-1-3.txt ~/data/classinfo/ 0.11 1 0 ../userquery/result/
+loops:10
+output-floder:log/
+

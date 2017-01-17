@@ -1,0 +1,5 @@
+2016-12-05 13:22:17.421523
+command:python ../userquery/simattack2.py ~/data/topics/ rand ~/data/lsaclass/ 0.5 2 ../userquery/result-new/
+loops:10
+output-floder:log/
+
