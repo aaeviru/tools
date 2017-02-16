@@ -1,7 +1,14 @@
-# tools
----------------------------------------------------
+# tools  
+---------------------------------------------------  
+python * -h  or  python * --help for more infomation   
+---------------------------------------------------  
+jpTOutf.py  
+jpTOutf2.py  
+jpTOutf-topic.py  
+
+---------------------------------------------------  
 Query Creation    
-init-topics.py:extract claims from patent  
+init-topics.py:extract claims from patent documents  
 chasen-topic.py:get chasen results of claims 
 topic-query.py:Creat query from chasen results of claims 
 
