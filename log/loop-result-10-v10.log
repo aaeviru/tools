@@ -1,0 +1,6 @@
+2017-01-09 22:38:12.817166
+
+command:python ../userquery/classifybyuser.py ~/data/topics/ ../tfidf/result-new/b264-1-2.txt ~/data/lsaclass/ 0.11 2 0 ../userquery/result/
+loops:10
+output-floder:log/
+

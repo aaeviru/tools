@@ -3,6 +3,7 @@
 import sys
 import os
 if(len(sys.argv) < 3):
+   print "input:input-folder ftype"
    sys.exit(0) 
 
 sw = set()
@@ -18,7 +19,7 @@ ftype = int(sys.argv[2])
 for root, dirs, files in os.walk(sys.argv[1]):
     for name in files:
         filename = root + '/' + name
-        if filename[len(filename)-1] == 'n':
+        if filename[len(filename)-1] == 'q':
             fin = open(filename,"r")
             lines = fin.readlines()
             fin.close()

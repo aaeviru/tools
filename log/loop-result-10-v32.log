@@ -1,0 +1,6 @@
+2017-01-13 16:38:43.637956
+
+command:python ../userquery/mtatt.py ~/data/topics/ ../tfidf/result-new/b3-1-1.txt ~/data/ldaclass-64-2000-top1000/ 0.2 3 0 2 ../userquery/result/
+loops:10
+output-floder:log/
+

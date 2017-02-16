@@ -1,0 +1,6 @@
+2016-12-18 01:02:30.991523
+
+command:python ../userquery/classifybyuser.py ~/data/topics/ ../tfidf/result-new/b2128-3.txt ~/data/lsaclass/ 0.8 2 0 ../userquery/result-new/
+loops:10
+output-floder:log/
+

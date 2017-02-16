@@ -1,0 +1,5 @@
+2016-12-09 18:46:09.402275
+command:python ../userquery/classifybyuser.py ~/data/topics/ rand5 ~/data/classinfo/ 0.6 1 0 ../userquery/result-new/
+loops:10
+output-floder:log/
+

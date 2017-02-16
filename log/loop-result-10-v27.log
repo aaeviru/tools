@@ -1,0 +1,6 @@
+2017-01-13 05:08:28.946793
+
+command:python ../userquery/mtatt.py ~/data/topics/ rand4 ~/data/lsaclass/ 0.2 2 0 3 ../userquery/result/
+loops:10
+output-floder:log/
+

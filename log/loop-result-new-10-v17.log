@@ -1,0 +1,5 @@
+2016-12-05 13:24:35.403322
+command:python ../userquery/simattack2.py ~/data/topics/ ../tfidf/result-new/b2-1.txt ~/data/lsaclass/ 0.5 2 ../userquery/result-new/
+loops:10
+output-floder:log/
+
