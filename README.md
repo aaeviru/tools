@@ -2,7 +2,12 @@
 ---------------------------------------------------  
 python * -h  or  python * --help for more infomation   
 
----------------------------------------------------  
+---------------------------------------------------
+1 change patent doc to utf-8
+2 do morphological analysis with chasen
+3 
+
+---------------------------------------------------
 jpTOutf.py  
 jpTOutf2.py  
 jpTOutf-topic.py  
