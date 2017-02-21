@@ -3,6 +3,16 @@ import os
 import os.path
 import sys
 import re
+
+if len(sys.argv) == 2 and (sys.argv[1] == '-h' or sys.argv[1] == '--help'):
+    print '''
+	2017/02/20
+	python chasen-index.py [特許文章(utf8)フォルダ]
+	*.txtの特許文章を形態素解析し([出現回数] [単語])のフォーマットで*.fqに保存する
+    '''
+    sys.exit(1)
+	
+	
 num = 0
 for root, dirs, files in os.walk(sys.argv[1]):
 	for name in files:

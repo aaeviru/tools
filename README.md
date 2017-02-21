@@ -1,11 +1,30 @@
 # tools  
+2017/02/20
+
+---------------------------------------------------
+tools:
+        Python 2.7.11
+        ChaSen version 2.4.5
+        perl version 5.005_04 with jperl5.005_03-20000401
+library:
+        geta32
+        numpy
+        scipy
+dataset:
+        NTCIR Publication of unexamined patent applications
+        wordnet ver 1.1
+        ntc6pat(topic)
+
+
 ---------------------------------------------------  
 python * -h  or  python * --help for more infomation   
 
 ---------------------------------------------------
 1 change patent doc to utf-8
 2 do morphological analysis with chasen
-3 
+3 create wam file
+4 create search index
+5 search
 
 ---------------------------------------------------
 jpTOutf.py  
