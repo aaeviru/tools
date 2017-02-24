@@ -1,7 +1,10 @@
+# -*- coding: utf-8 -*-
+
 import os
 import os.path
 import re
 import sys
+
 num = 0
 fout = open("/mnt/nas2a/ko/"+sys.argv[1][len(sys.argv[1])-6:len(sys.argv[1])-1]+".freqfile","w")
 for root, dirs, files in os.walk(sys.argv[1]):

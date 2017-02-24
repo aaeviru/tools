@@ -27,21 +27,33 @@ python * -h  or  python * --help for more infomation
 5 search
 
 ---------------------------------------------------
+1 change patent doc to utf-8
 jpTOutf.py  
 jpTOutf2.py  
-jpTOutf-topic.py  
+
+---------------------------------------------------
+2 do morphological analysis with chasen
+chasen-index.py
+
+---------------------------------------------------
+3 create wam file
+init.py
+join.py
+
+---------------------------------------------------
+4 create search index
+see doc of geta3
+
+---------------------------------------------------
+5 search
+see doc in getasearch
 
 ---------------------------------------------------  
 Query Creation    
+jpTOutf-topic.py change patent doc to utf-8
 init-topics.py:extract claims from patent documents  
 chasen-topic.py:get chasen results of claims 
 topic-query.py:Creat query from chasen results of claims 
-
----------------------------------------------------
-Index Creation
-chasen-index.py:get chasen results of claims,chasen to .fq  
-init.py:.fq to frefile
-join.py:freqfile to NTCIR.txt  
 
 ---------------------------------------------------
 Stopword List  
